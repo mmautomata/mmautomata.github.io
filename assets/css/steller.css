@@ -5079,6 +5079,7 @@ input[type="button"].btn-block {
   color: #fff;
 }
 
+
 .card {
   position: relative;
   display: flex;
@@ -5114,6 +5115,25 @@ input[type="button"].btn-block {
   height: 30vh;
   object-fit: cover;
 }
+
+.equal-height-cards > [class*='col-'] {
+  display: flex;
+}
+
+.equal-height-cards .card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.equal-height-cards .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
 .breadcrumb {
   display: -webkit-box;
   display: -webkit-flex;

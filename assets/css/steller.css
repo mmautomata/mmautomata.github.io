@@ -2788,6 +2788,19 @@ textarea.form-control {
   }
 }
 
+.btn-poster {
+  background-color: #f8f9fa;   /* light background */
+  color: #212529;              /* dark text */
+  border: 1px solid #ced4da;   /* subtle border */
+}
+
+.btn-poster:hover {
+  background-color: #e2e6ea;   /* slightly darker hover */
+  color: #212529;              /* keep text dark */
+  border-color: #adb5bd;
+}
+
+
 .btn:hover {
   color: #495057;
   text-decoration: none;

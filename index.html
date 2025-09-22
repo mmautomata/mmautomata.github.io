@@ -282,6 +282,24 @@
                                 <tr>
                                     <td>12:00 – 12:55</td>
                                     <td>Talk 3: <strong>Pavithra Prabhakar</strong></td>
+                                    <td><label for="details3" class="toggle-label"><i class="fa fa-chevron-down"></i></label></td>
+                                </tr>
+                                <tr class="details">
+                                    <td colspan="3">
+                                        <input type="checkbox" id="details3" class="toggle-input">
+                                        <div class="toggle-content">
+                                            <em>Title: </em><strong>Abstractions for Scalable Verification of AI-enabled Cyber-Physical Systems</strong><br>
+                                            <p>Abstract: AI-based components have become integral to Cyber-Physical Systems (CPS), enabling transformative functionalities across various domains including transportation, energy, and medicine. Specifically, machine learning components are now widely used for perception, control, and decision-making in safety-critical applications, necessitating rigorous verification methods to ensure safe deployment in real-world environments.</p>
+                                            
+                                            <p>In this talk, we present a formal approach for verifying the safety of AI-enabled CPS. We focus on closed-loop systems that integrate dynamical models of physical processes with neural network-based perception and control modules. We explore two verification scenarios: (1) controllers implemented as neural networks, and (2) perception pipelines combining camera models with neural networks. A key challenge in both settings is the scalability of verification algorithms, particularly due to the large size of neural networks and the complexity introduced by image-based perception.</p>
+                                            
+                                            <p>To address these challenges, we propose abstraction techniques that simplify system representations and make verification tractable. Specifically, we introduce two novel data structures: Interval Neural Networks, which provide abstract representations of neural network behaviors, and Interval Images, which serve as abstract symbolic representations of a set of images. We also present novel abstraction-refinement algorithms that efficiently search for small abstractions to prove system safety. Our experimental results demonstrate that these abstraction-refinement algorithms significantly improve scalability and efficiency by quickly identifying small abstractions to prove safety, enabling the analysis of complex, large-scale AI-enabled CPS.</p>
+
+                                            <p>We also discuss verification approaches for evolving neural networks and highlight ongoing work on stability analysis, refinement checking, compositional analysis, and related challenges.</p>
+                                            
+                                            <p>This work is a collaborative effort with students and postdoctoral researchers in the Trustworthy AI and Autonomous Systems (TRAITS) Lab, in collaboration with the Indian Institute of Science (IISc), and is supported by NSF and Amazon Research Awards.</p>
+                                        </div>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>12:55 – 14:30</td>
